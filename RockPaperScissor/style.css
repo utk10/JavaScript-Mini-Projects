@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(18, 14, 71);
+  color: white;
+}
+
+.rps{
+    font-size: 25px;
+}
+.container{
+    width: 100%;
+    height: 500px;
+}
+
+.main{
+    width: 100%;
+    height: 33%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player,.computer{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.p_score,.c_score{
+    font-size: 50px;
+}
+
+.player_name,.computer_name{
+    font-size: 20px;
+}
+
+.rock{
+    width: 135px;
+    height: 135px;
+    border-radius: 60%;
+    margin-right: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+.paper{
+    width: 135px;
+    height: 135px;
+    background-image: url("");
+    border-radius: 60%;
+    margin-right: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+.scissor{
+    width: 135px;
+    height: 135px;
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: aqua; */
+    border-radius: 60%;
+    margin-right: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dice{
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.rock:hover,.paper:hover,.scissor:hover{
+    border: 4px solid black;   
+    cursor: pointer;
+}
